@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 /**
- * Main - Print the last digit of a number genrated randonly
+ * main - Print the last digit of a number genrated randonly
  * and determiine it is greater than 5, les than 6, or 0
  *
  * Return: Always 0 (Success)
@@ -19,7 +19,7 @@ int main(void)
 }
 	else if ((n % 10) < 6 && (n % 10) != 0)
 {
-	printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
 	else
 {
