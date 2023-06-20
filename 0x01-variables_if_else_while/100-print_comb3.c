@@ -14,8 +14,8 @@ int main(void)
 	{
 		if (f > i)
 		{
-		putchar ('i');
-		putchar ('f');
+		putchar (i);
+		putchar (f);
 			if (i != 56 || f != 57)
 			{
 				putchar(',');
