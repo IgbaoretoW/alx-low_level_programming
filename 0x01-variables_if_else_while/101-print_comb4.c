@@ -9,9 +9,9 @@ int main(void)
 {
 	int a, b, c;
 
-	for (a = 48; a <= 56; a++)
+	for (a = 48; a <= 58; a++)
 	{
-		for (b = 49; b <= 57; b++)
+		for (b = 49; b <= 58; b++)
 		{
 			for (c = 50; c <= 58; c++)
 			{
@@ -20,7 +20,7 @@ int main(void)
 					putchar (a);
 					putchar (b);
 					putchar (c);
-					if (a != 56 || b != 57)
+					if (a != 55 || b != 56)
 					{
 						putchar(',');
 						putchar(' ');
