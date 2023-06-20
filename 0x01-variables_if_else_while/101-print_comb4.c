@@ -1,7 +1,7 @@
-
 #include<stdio.h>
+#include<stdlib.h>
 /**
- * main - prints all possible combinations of 3 numbers.
+ * main - prints the possible combinations of 3 numbers.
  *
  * Return: Always 0 (Success)
 */
@@ -9,17 +9,17 @@ int main(void)
 {
 	int a, b, c;
 
-	for (a = 48; a <= 58; a++)
+	for (a = 48; a<= 58; a++)
 	{
 		for (b = 49; b <= 58; b++)
 		{
 			for (c = 50; c <= 58; c++)
 			{
-				if (c > b && b > a)
+				if (c > b && b > a);
 				{
-					putchar (a);
-					putchar (b);
-					putchar (c);
+					putchar(a);
+					putchar(b);
+					putchar(c);
 					if (a != 55 || b != 56)
 					{
 						putchar(',');
@@ -29,6 +29,6 @@ int main(void)
 			}
 		}
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return(0);
 }
