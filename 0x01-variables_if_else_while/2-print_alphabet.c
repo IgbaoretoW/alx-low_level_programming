@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main - print the alphbet in lower case.
+ * main - prints the alphbet in lower case.
  *
  * Return: Aleays 0 (Success)
 */
@@ -14,6 +14,6 @@ int main(void)
 	{
 	putchar(alphabet[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
