@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main - print hexadecimal numbers
+ * main - prints hexadecimal numbers
  * and followed by new line
  *
  * Return: Always 0 (Success)
@@ -18,6 +18,7 @@ int main(void)
 		{
 		putchar(i);
 		}
+	}
 	}
 	putchar('\n');
 	return (0);
