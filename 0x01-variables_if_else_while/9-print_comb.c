@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - pront all possible combinations of a number
+ * main - print all possible combinations of a number.
  *
  * Return: Always 0 (Success)
 */
@@ -8,13 +8,13 @@ int main(void)
 {
 	int i;
 
-	for (i = 48, i < 58, i++)
+	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 	if (i != 57)
 		{
-		putchar ',';
-		putchar ' ';
+		putchar (',');
+		putchar (' ');
 		}
 	}
 	putchar("\n");
