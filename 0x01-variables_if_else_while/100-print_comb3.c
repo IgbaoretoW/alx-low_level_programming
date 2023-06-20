@@ -7,10 +7,10 @@
 int main(void)
 {
 	int i, f;
-	
-	for (i = 48; i < 56; i++)
+
+	for (i = 48; i <= 56; i++)
 	{
-		for (f = 49; f < 57; f++)
+		for (f = 49; f <= 57; f++)
 	{
 		if (f > i)
 		{
