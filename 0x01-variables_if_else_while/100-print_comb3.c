@@ -12,7 +12,6 @@ int main(void)
 	{
 		for (f = 49; f < 57; f++)
 	{
-		putchar(i);
 		if (f > i)
 		{
 		putchar ('i');
