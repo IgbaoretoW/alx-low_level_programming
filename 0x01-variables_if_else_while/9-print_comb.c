@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - print all possible combinations of a number.
+ * main - prints all possible combinations of a number.
  *
  * Return: Always 0 (Success)
 */
@@ -17,6 +17,6 @@ int main(void)
 		putchar (' ');
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
