@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_rev - imprime en reversa
- * @s: string to be printed
- * return: 0 (Success)
+ * @s: string
+ * return: 0
  */
 void print_rev(char *s)
 {
@@ -18,7 +18,7 @@ void print_rev(char *s)
 	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
-		ps--;
+		s--;
 	}
 	_putchar('\n');
 }
